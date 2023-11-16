@@ -28,8 +28,9 @@ This documentation provides an overview of the Weather Forecast application, inc
 
 - React
 - TypeScript
-- JavaScript library of your choice
-- CSS frameworks as needed
+- React-Testing-Library
+- Jest
+- CSS
 
 ## 3. Setup Instructions<a name="setup-instructions"></a>
 
