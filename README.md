@@ -22,7 +22,7 @@ This documentation provides an overview of the Weather Forecast application, inc
 - View history of searched cities.
 - Click on a history item to fetch weather data for that city.
 - Remove history search items.
-- Optional: Undo a remove action.
+- Undo a remove action.
 
 ## 2. Technology Stack<a name="technology-stack"></a>
 
@@ -49,6 +49,10 @@ This documentation provides an overview of the Weather Forecast application, inc
    ```bash
    npm start
    ```
+4. Created bild:
+ ```bash
+ npm ruun build
+ ``` 
 
 5. Open the application in your browser at [http://localhost:3000](http://localhost:3000).
 
