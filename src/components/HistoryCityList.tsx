@@ -1,14 +1,13 @@
 import React from 'react'
 interface SearchListProps {
     history: string[];
-    isInputFocused: boolean;
     handleHistoryItemClick: (selectedOption: string) => void;
     removeFromHistory: (city: string) => void;
     lastRemovedCity: string | null
     undoRemove: (city: string) => void;
 }
 
-export const HistoryCityList: React.FC<SearchListProps> = ({ history, isInputFocused, handleHistoryItemClick, removeFromHistory, undoRemove, lastRemovedCity }) => (
+export const HistoryCityList: React.FC<SearchListProps> = ({ history, handleHistoryItemClick, removeFromHistory, undoRemove, lastRemovedCity }) => (
     <ul className="search_dropdown">
         {history.map((city, index) => (
             <li key={index}>
@@ -20,7 +19,7 @@ export const HistoryCityList: React.FC<SearchListProps> = ({ history, isInputFoc
                         }}
                         onClick={() => handleHistoryItemClick(city)}
                     >
-                        <p>{city}</p>
+                        <p className='history_list_item'>{city}</p>
                     </div>
                     <span
                         className="dropdown-deleteBtn"

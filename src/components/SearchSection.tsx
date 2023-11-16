@@ -55,7 +55,6 @@ export const SearchSection = ({ handleSetWeather } : { handleSetWeather: (weathe
             lastRemovedCity={lastRemovedCity}
             history={history}
             undoRemove={undoRemove}
-            isInputFocused={isInputFocused}
             handleHistoryItemClick={handleHistoryItemClick}
             removeFromHistory={removeFromHistory}
         />
