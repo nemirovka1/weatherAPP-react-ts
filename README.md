@@ -44,12 +44,7 @@ This documentation provides an overview of the Weather Forecast application, inc
    npm install
    ```
 
-3. Create a `.env` file at the root of the project and add your OpenWeatherMap API key:
-   ```env
-   REACT_APP_API_KEY=<your-api-key>
-   ```
-
-4. Start the development server:
+3. Start the development server:
    ```bash
    npm start
    ```
